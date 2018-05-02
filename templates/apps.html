@@ -8,15 +8,15 @@
 {% endblock %}
 
 {%block main %}
-  <form method="POST">
+  <form action = "../apps/" method="POST">
     Километраж маршрута:<br>
     <input type="text" name="kilometers" value="0"><br><br>
 
     В какую сторону едем? <br><br>
-    <input type="radio" name="direction" value=1 checked> от Москвы <br>
-    <input type="radio" name="direction" value=2> к Москве <br>
-    <input type="radio" name="direction" value=3> по регионам <br>
-    <input type="radio" name="direction" value=4> по городу <br>
+    <input type="radio" name="direction" value='1' checked> от Москвы <br>
+    <input type="radio" name="direction" value='2'> к Москве <br>
+    <input type="radio" name="direction" value='3'> по регионам <br>
+    <input type="radio" name="direction" value='4'> по городу <br>
     <br>
     <input type="submit" class="btn btn-lg btn-secondary" value="Рассчитать ставку">
   </form>

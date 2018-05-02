@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from tariff_calc import calculate_tariff 
 
 app = Flask(__name__)
 
@@ -15,14 +16,15 @@ def kotusenichki():
 	return render_template('kotusenichki.html')
 
 @app.route('/apps/', methods=['GET', 'POST'])
-def apps_calculate():
+def apps():
 	if request.method == 'GET':
 		return render_template('apps.html')
 	else:
-		return render_template('calculate.html')
-
-
-
+		kilometers = request.form['kilometers']
+		direction = request.form['direction']
+		tariff = calculate_tariff(int(kilometers), int(direction))
+		return render_template('calculate.html', tariff=tariff)
+	
 
 
 if __name__ == '__main__':
