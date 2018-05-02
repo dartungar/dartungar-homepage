@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{%block menu %}
+  <a class="nav-link" href="..">Главная</a>
+  <a class="nav-link" href="../blog">Блог</a>
+  <a class="nav-link active" href="../apps">Приложения</a>
+  <a class="nav-link" href="../kotusenichki">Котусенички</a>
+{% endblock %}
+
+{%block main %}
+  <form method="POST">
+    Километраж маршрута:<br>
+    <input type="text" name="kilometers" value="0"><br><br>
+
+    В какую сторону едем? <br><br>
+    <input type="radio" name="direction" value=1 checked> от Москвы <br>
+    <input type="radio" name="direction" value=2> к Москве <br>
+    <input type="radio" name="direction" value=3> по регионам <br>
+    <input type="radio" name="direction" value=4> по городу <br>
+    <br>
+    <input type="submit" class="btn btn-lg btn-secondary" value="Рассчитать ставку">
+  </form>
+{% endblock %}
