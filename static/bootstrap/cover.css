@@ -27,6 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
+  background-image: url("/static/images/background-texture-light.jpg");
   background-color: #F9F8FA;
 }
 
@@ -37,8 +38,15 @@ body {
   .text-shadow: 0 .05rem .1rem rgba(200, 200, 200, .5);
 }
 
+.text-box-dartungar {
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  border-radius: 4px;
+}
+
 .cover-container {
-  max-width: 42em;
+  max-width: 50em;
 }
 
 
@@ -59,6 +67,12 @@ body {
   color: #C7A43E;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+}
+
+.dropdown-toggle {
+  padding: .25rem 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .nav-masthead .nav-link:hover,
@@ -97,9 +111,11 @@ body {
 }
 
 
+
+
 /*
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(0, 0, 0, .5);
 }

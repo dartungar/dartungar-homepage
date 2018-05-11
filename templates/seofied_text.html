@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block main %}
+  <div class="text-box-dartungar" id="seotext">
+    {% for line in seofied_text %}
+      {{line}}, 
+    {% endfor %}
+  </div>
+  <br>
+  <button class="btn btn-lg btn-secondary" onclick="copyFunction('#seotext')">Скопировать в буфер обмена</button>
+{% endblock %}
+

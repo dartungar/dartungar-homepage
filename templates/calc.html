@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+  <form action = "/apps/calc/" method="POST">
+    <div class="form-group">
+      <label>Километраж маршрута:</label>
+      <input type="text" class="form-control col-md-2 mx-auto" name="kilometers" placeholder="0">
+      <small class="form-text text-muted">Километраж напрямую влияет на себестоимость маршрута</small>
+    </div>
+
+    <br><br>
+
+    <div class="form-group">
+      <label>В какую сторону едем?</label>
+      <br>
+      <input type="radio" name="direction" value='1' checked> от Москвы <br>
+      <input type="radio" name="direction" value='2'> к Москве <br>
+      <input type="radio" name="direction" value='3'> по регионам <br>
+      <input type="radio" name="direction" value='4'> по городу <br>
+      <small class="form-text text-muted">Как правило, в Москву везти дешевле, чем из Москвы.</small>
+    </div>
+    <input type="submit" class="btn btn-lg btn-secondary" value="Рассчитать ставку">
+  </form>
+{% endblock %}

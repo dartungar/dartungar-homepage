@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)https://getbootstrap.com/docs/4.1/examples/cover/ -->
+<!-- heavily based on Cover template from Bootstrap -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../static/images/favicon.ico">
+    <link rel="icon" href="/static/images/favicon.ico">
 
-    <title>dartungar's bootstrap shenanigans</title>
+    <title>dartungar's pages</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../static/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../static/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link type="text/css" rel="stylesheet" href="../static/bootstrap/cover.css"></head>
+    <link href="/static/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="/static/bootstrap/cover.css"></head>
 
   <body class="text-center">
 
@@ -22,14 +22,26 @@
     {%block header %}
       <header class="masthead mb-auto">
         <div class="inner">
-          <h3 class="masthead-brand">Данила Николаев</h3>
+          <h3 class="masthead-brand">dartungar</h3>
           <nav class="nav nav-masthead justify-content-center">
           	{%block menu %}
-            <a class="nav-link" href="..">Главная</a>
-            <a class="nav-link" href="../blog">Блог</a>
-            <a class="nav-link" href="../apps">Приложения</a>
-            <a class="nav-link" href="../kotusenichki">Котусенички</a>
+            <a class="nav-link" href="/">Главная</a>
+            <a class="nav-link" href="/blog/">Блог</a>
+            {%block dropdown %}
+            <!-- drowdown for apps -->
+            <div class="dropdown">
+              <a class="nav-link dropdown-toggle" href="/apps/" id="apps-dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Приложения</a>
+
+              <div class="dropdown-menu" aria-labelledby="apps-dropdown-menu">
+                 <a class="dropdown-item" href="/apps/calc/">Калькулятор тарифов на автоперевозку</a>
+                 <a class="dropdown-item" href="/apps/seofy/">Литературный SEO-негр</a>
+               </div>
+            </div>
             {% endblock %}
+
+            <a class="nav-link" href="/kotusenichki/">Котусенички</a>
+            {% endblock %}
+            
           </nav>
         </div>
       </header>
@@ -38,8 +50,8 @@
 
       {%block main %}
       <main role="main" class="inner cover">
-        <h1 class="cover-heading">Тестовая страница</h1>
-        <p class="lead">Тренируемся создавать сайты</p>
+        <h1 class="cover-heading"> Главная страница </h1>
+        <p class="lead">Тут ничего нет, но вы можете посмотреть на танцующих котусеничек</p>
         <p class="lead">
           <a href="../kotusenichki" class="btn btn-lg btn-secondary">Посмотреть котусеничек!</a>
         </p>
@@ -57,10 +69,14 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="/static/bootstrap/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="files/popper.min.js"></script>
-    <script src="files/bootstrap.min.js"></script>
+    <script src="/static/bootstrap/popper.min.js"></script>
+    <script src="/static/bootstrap/bootstrap.min.js"></script>
+
+    <!-- script for copying to clipbodard from CodePen -->
+    <script src="/static/dartungar-js.js"></script>
   
 
-</body></html>
+  </body>
+</html>

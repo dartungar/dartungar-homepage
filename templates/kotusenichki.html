@@ -1,21 +1,14 @@
 {% extends "layout.html" %}
 
-{%block menu %}
-  <a class="nav-link" href="..">Главная</a>
-  <a class="nav-link" href="../blog">Блог</a>
-  <a class="nav-link" href="../apps">Приложения</a>
-  <a class="nav-link active" href="../kotusenichki">Котусенички</a>
-{% endblock %}
-
 {%block main %}
   Котусенички танцуют!
   <div>
-  <img src="..\static\images\dance_pusheen.gif">
+  <img class="img-fluid" src="..\static\images\dance_pusheen.gif">
   <br>
-  <img src="..\static\images\music_pusheen.gif">
+  <img class="img-fluid" src="..\static\images\music_pusheen.gif">
   <br>
-  <img src="..\static\images\cookie_pusheen.gif">
+  <img class="img-fluid" src="..\static\images\cookie_pusheen.gif">
   <br>
-  <img src="..\static\images\piano_pusheen.gif">
+  <img class="img-fluid" src="..\static\images\piano_pusheen.gif">
   </div>
 {% endblock %}

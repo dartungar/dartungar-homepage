@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+
+{% block main %}
+  <form action = "/apps/seofy/" method="POST">
+    <div class="form-group">
+      <textarea class="form-control" name="raw_text" rows="10" cols="25" placeholder="Введите по 1 фразе на строку. А дальше пусть работает негр!"></textarea> 
+    </div>
+    <input type="submit" class="btn btn-lg btn-secondary" value="Работай, негр!">
+  </form>
+{% endblock %}
