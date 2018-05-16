@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url("/static/images/background-texture-light.jpg");
+  /* background-image: url("/static/images/background-texture-light.jpg"); ну его пока что*/
   background-color: #F9F8FA;
 }
 
@@ -118,4 +118,20 @@ body {
  */
 .mastfoot {
   color: rgba(0, 0, 0, .5);
+}
+
+/* error message */
+.error-msg {
+  color:#6d1133;
+  font-size:300%;
+  font-weight: bold;
+  text-shadow: 2px;
+}
+
+/* custom form border */
+.form-border {
+  border: 1px solid;
+  border-color: #e5e3dc;
+  border-radius: 2px;
+  padding: 2.5rem;
 }
