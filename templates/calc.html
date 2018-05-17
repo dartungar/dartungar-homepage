@@ -2,27 +2,29 @@
 
 
 {% block main %}
+  <h4>Калькулятор тарифа на автоперевозку</h2>
   <form class="form-border" action = "/apps/calc/" method="POST">
     <div class="form-group">
-      <label>Километраж маршрута:</label>
-      <input type="number" class="form-control col-md-2 mx-auto" name="kilometers" min="1" max="9500" placeholder="0" required>
-      <small class="form-text text-muted">Километраж напрямую влияет на себестоимость маршрута</small>
+      <label class="form-label"><b>Пункт отправления:</b></label>
+      <input type="text" class="form-control mx-auto" name="point_a" placeholder="Например, 'Красный Кут, Саратовская область'" required>
+      <br>
+      <label class="form-label"><b>Пункт назначения:</b></label>
+      <input type="text" class="form-control mx-auto" name="point_b" placeholder="Например, 'Деревня Лопатино, Тарусский Район, Калужская область'" required>
     </div>
 
     <br><br>
     <div class="form-group">
-      <label>Выберите тип транспорта:</label>
+      <label ><b>Выберите тип транспорта:</b></label>
       <select class="form-control col-md-3 mx-auto" name="vehicle-type" size="3" required>
         <option value="tent20">Тент 20т</option>
         <option value="tank20">Автоцистерна 20т</option>
         <option value="ref20">Рефрижератор 20т</option>
       </select>
-      <small class="form-text text-muted">Тарифы на перевозку различными видами транспорта различаются.</small>
     </div>
     <br><br>
 
     <div class="form-group">
-      <label>В какую сторону едем?</label>
+      <label class="form-label"><b>В какую сторону едем?</b></label>
       <br>
       <input type="radio" name="direction" value='1' checked> от Москвы <br>
       <input type="radio" name="direction" value='2'> к Москве <br>
