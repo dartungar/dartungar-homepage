@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #ad9b43;
 }
 
 /* Custom default button */
@@ -146,6 +146,3 @@ body {
   border: 1px solid #F9F8FA;
 }
 
-input {
-  border-color: #d1c18c;
-}

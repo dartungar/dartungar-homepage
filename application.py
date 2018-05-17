@@ -38,7 +38,8 @@ def calc():
 		if taxes:
 			# ... based on distance, direction and the type of vehicle
 			tariff = calculate_tariff(
-				distance=int(request.form['kilometers']), 
+				point_a=request.form['point_a'],
+				point_b=request.form['point_b'], 
 				direction=int(request.form['direction']), 
 				vehicle_type=request.form['vehicle-type'])
 			# output page with calculated tariff
@@ -65,6 +66,8 @@ def seofy():
 	else:
 		return render_template('seofy.html')
 
+# error handlers
+# TODO: unite in one function
 @app.errorhandler(400)
 def bad_request(e):
 	return render_template('error.html', error='Неправильный запрос!'), 400
@@ -76,6 +79,9 @@ def not_found(e):
 @app.errorhandler(500)
 def server_error(e):
 	return render_template('error.html', error='Что-то пошло не так!'), 500
+
+
+
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0', port=7700)
