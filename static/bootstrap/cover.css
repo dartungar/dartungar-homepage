@@ -71,7 +71,6 @@ body {
 
 .dropdown-toggle {
   padding: .25rem 0;
-  margin-left: 1rem;
   margin-right: 1rem;
 }
 
@@ -134,4 +133,19 @@ body {
   border-color: #e5e3dc;
   border-radius: 2px;
   padding: 2.5rem;
+}
+
+/* custom color for buttons */
+.btn-primary {
+  background-color: #a3861f;
+  border: 1px solid #F9F8FA;
+}
+
+.btn-primary:hover {
+  background-color: #7a6108;
+  border: 1px solid #F9F8FA;
+}
+
+input {
+  border-color: #d1c18c;
 }
