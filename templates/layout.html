@@ -27,17 +27,19 @@
           	{%block menu %}
             <a class="nav-link" href="/">Главная</a>
             <a class="nav-link" href="/blog/">Блог</a>
-            {%block dropdown %}
-            <!-- drowdown for apps -->
-            <div class="dropdown">
-              <a class="nav-link dropdown-toggle" href="/apps/" id="apps-dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Приложения</a>
 
+            <!-- custom drowdown for apps -->
+            <div class="btn-group">
+              <a href="/apps/" class="btn nav-link" style="margin-left: 1rem;">Приложения</a>
+              <!-- stitched split dropdown button to nav-link element -->
+              <button type="button" class="btn nav-link dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-left: 1px;">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
               <div class="dropdown-menu" aria-labelledby="apps-dropdown-menu">
                  <a class="dropdown-item" href="/apps/calc/">Калькулятор тарифов на автоперевозку</a>
-                 <a class="dropdown-item" href="/apps/seofy/">Литературный SEO-негр</a>
+                 <a class="dropdown-item" href="/apps/seofy/">Генератор запросов для SEO</a>
                </div>
             </div>
-            {% endblock %}
 
             <a class="nav-link" href="/kotusenichki/">Котусенички</a>
             {% endblock %}
