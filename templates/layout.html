@@ -19,12 +19,12 @@
   <body class="text-center">
 
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    {%block header %}
+    {% block header %}
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand">dartungar</h3>
           <nav class="nav nav-masthead justify-content-center">
-          	{%block menu %}
+          	{% block menu %}
             <a class="nav-link" href="/">Главная</a>
             <a class="nav-link" href="/blog/">Блог</a>
 
@@ -43,6 +43,13 @@
 
             <a class="nav-link" href="/kotusenichki/">Котусенички</a>
             {% endblock %}
+
+            <!-- warning with flashed messages -->
+            {% if get_flashed_messages() %}
+                <div class="alert alert-secondary border text-center" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            {% endif %}
             
           </nav>
         </div>
@@ -51,13 +58,6 @@
 
 
       {%block main %}
-      <main role="main" class="inner cover">
-        <h1 class="cover-heading"> Главная страница </h1>
-        <p class="lead">Тут ничего нет, но вы можете посмотреть на танцующих котусеничек</p>
-        <p class="lead">
-          <a href="../kotusenichki" class="btn btn-lg btn-secondary">Посмотреть котусеничек!</a>
-        </p>
-      </main>
       {% endblock %}
 
       <footer class="mastfoot mt-auto">

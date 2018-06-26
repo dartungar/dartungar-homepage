@@ -19,8 +19,7 @@ def calculate_tariff(point_a, point_b, direction=1, vehicle_type='oslik'):
 # using Google Distance Matrix API
 def get_distance_from_googlemaps(a, b):
 	'''sends points A and B to Google Maps Distance Matrix API
-		and gets the distance between from returned data'''
-		
+		and gets the distance between from returned data'''		
 	import googlemaps
 
 	# api key is stored in a txt file
@@ -30,7 +29,6 @@ def get_distance_from_googlemaps(a, b):
 
 	# setting up google maps client
 	gmaps = googlemaps.Client(key=api_key)
-
 	# getting distance matrix for points a and b
 	matrix = gmaps.distance_matrix(a, b)
 
@@ -38,4 +36,5 @@ def get_distance_from_googlemaps(a, b):
 	# as kilometers
 	# (should find a way to process JSON results more reliably?..)
 	distance_km = round(matrix['rows'][0]['elements'][0]['distance']['value'] / 1000)
+	
 	return distance_km

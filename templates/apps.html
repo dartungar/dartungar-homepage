@@ -2,31 +2,5 @@
 
 
 {% block main %}
-    <div class="row">
-    	<div class="col-sm">
-		    <div class="card">
-		    	<img class="card-img-top" src="/static/images/truck-thumbnail.jpg" alt="tariff calculator">
-		    	<div class="card-body">
-		    		<h5 class="card-title">Калькулятор тарифов</h5>
-		    		<p class="card-text">Считает тариф на автомобильную грузоперевозку с учетом километража, вида транспорта и направления.</p>
-		    	</div>
-	    		<div class="card-footer">
-	    			<a href="/apps/calc/" class="btn btn-primary">Посчитать тариф</a>
-	    		</div>		    	
-		    </div>
-		</div>
-
-		<div class="col-sm">
-		    <div class="card">
-		    	<img class="card-img-top" src="/static/images/bot-writer-thumbnail.jpg" alt="seofy text">
-		    	<div class="card-body">
-		    		<h5 class="card-title">Генератор СЕО-фраз</h5>
-		    		<p class="card-text">Дополняет введенные вами слова или фразы, выдавая набор потенциально популярных поисковых запросов.</p>
-		    	</div>
-	    		<div class="card-footer">
-	    			<a href="/apps/seofy/" class="btn btn-primary">Сгенерировать фразы</a>
-	    		</div>
-		    </div>
-		</div>
-	</div>
+	{% include "apps-list.html" %}
 {% endblock %}
