@@ -1,15 +1,23 @@
-def calculate_tariff(point_a, point_b, direction=1, vehicle_type='oslik'):
+def calculate_tariff(point_a, point_b, direction=0, vehicle_type='oslik'):
 	'''primitive tariff calculator with hard-coded values'''
 	
 	# coefficents for calculating tariff
 	coeff = [1.3, 0.7, 1, 1]
-	price = {'tent20': 35, 'ref20': 38, 'tank20': 90, 'oslik': 1}
+	price_km = {'tent20': 17, 'ref20': 34, 'tank20': 18, 'oslik': 1}
+	price_hours = {'tent20': 1703, 'ref20': 1800, 'tank20': 1500, 'oslik': 1}
 
 	# getting distance from Google Maps Distance Matrix API
 	distance = get_distance_from_googlemaps(point_a, point_b)
 
+	# calculating average time in travel
+	hours_travel = distance / 60
+	hours_total = hours_travel + 3
+
+	# if vehicle is tank trailer, it's always a round trip (coefficient = 2)
+	coeff_final = 2 if vehicle_type == 'tank20' else coeff[direction]
+
 	# a primitive tariff calculation
-	tariff = distance * coeff[direction] * price[vehicle_type]
+	tariff = (distance * price_km[vehicle_type] + hours_total * price_hours[vehicle_type]) * coeff_final
 	tariff = round(tariff, -2)
 
 	return tariff

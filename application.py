@@ -30,8 +30,6 @@ def apps():
     return render_template('apps.html')
 
 # tariff calculator
-
-
 @app.route('/apps/calc/', methods=['GET', 'POST'])
 def calc():
     # if data is submitted via form, calculate the tariff

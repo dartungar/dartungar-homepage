@@ -1,12 +1,21 @@
 {% extends "layout.html" %}
 
 {% block main %}
-  <div class="text-box-dartungar" id="seotext">
-    {% for line in seofied_text %}
-      {{line}}, 
-    {% endfor %}
-  </div>
+  <textarea class="form-control" rows="10" cols="25" id="seofied-text">
+    {% for line in seofied_text %}{{ line }}, {% endfor %}
+  </textarea>
   <br>
-  <button class="btn btn-lg btn-secondary" onclick="copyFunction('#seotext')">Скопировать в буфер обмена</button>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+          <a href="/apps/seofy" class="button btn btn-lg btn-secondary">ЗаSEOшить другой текст</a>
+      </div>
+      <div class="col-sm">
+          <button class="btn btn-lg btn-secondary" onclick="copyFunction('#seofied-text')">Скопировать в буфер обмена</button>
+      </div>
+    </div>
+
+  </div>
+  
 {% endblock %}
 
