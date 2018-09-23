@@ -12,11 +12,15 @@ def index():
     return render_template('index.html')
 
 
-# blog - TODO
-@app.route('/blog/')
-def blog():
-    return render_template('blog.html')
+# about - TODO
+@app.route('/about/')
+def about():
+    return render_template('about.html')
 
+# misc page - TODO
+@app.route('/stuff/')
+def stuff():
+    return render_template('stuff.html')
 
 # a page for my wife
 @app.route('/kotusenichki/')
