@@ -8,7 +8,7 @@ def import_spice(file_path):
 
     # make a list of SEO buzzwords from \n-delimited text file  
     with open(file_path, 'r') as file:
-        spice = [line.strip() for line in file]
+        spice = file.read().splitlines()
     
     return spice
 
