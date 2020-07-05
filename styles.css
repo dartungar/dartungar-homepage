@@ -1,0 +1,67 @@
+/* global style */
+body {
+  background-color: #f9f9f8;
+  color: #39383c;
+  margin: 20px 20px 40px;
+  font-family: "Lora", serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #837773;
+  font-family: "Ubuntu", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #39383c;
+}
+
+a:hover {
+  color: #918a85;
+}
+
+/* navbar & logo */
+
+nav {
+  margin-bottom: 40px;
+}
+
+nav h3,
+ul {
+  display: inline;
+}
+
+nav ul {
+  position: absolute;
+  right: 20px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* hero */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-pic {
+  width: 400px;
+}
+
+/* skills */
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
