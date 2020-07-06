@@ -16,51 +16,211 @@
     <title>dartungar</title>
   </head>
   <body>
-    <!-- navbar -->
-    <nav>
-      <h3>dartungar</h3>
-      <ul class="navbar-list">
-        <li><a href="#skills">Навыки</a></li>
-        <li><a href="#career">Карьера</a></li>
-        <li><a href="#projects">Проекты</a></li>
-        <li><a href="#about">Обо мне</a></li>
-        <li><a href="#contacts">Контакты</a></li>
-      </ul>
-    </nav>
-    <!-- hero -->
-    <section>
-      <div class="grid-2">
-        <div>
-          <h1>Привет.</h1>
-          <h4>Меня зовут Данила.</h4>
-          <p>Я аналитик, разработчик и немножко продуктолог.</p>
-        </div>
-        <div>
-          <img
-            src="/public/dartungar-round.png"
-            alt="picture of Danila Nikolaev"
-            class="hero-pic"
-          />
-        </div>
+    <div>
+      <!-- navbar -->
+      <div class="header section-dark">
+        <nav>
+          <h3>dartungar</h3>
+          <ul class="navbar-list">
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#career">Карьера</a></li>
+            <li><a href="#projects">Проекты</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
-    </section>
 
-    <!-- skills -->
-    <section id="skills">
-      <h2>Навыки</h2>
-      <div class="grid-3"></div>
-    </section>
+      <!-- hero -->
+      <section class="section-dark">
+        <div class="hero">
+          <div>
+            <h1>Привет, я - Данила Николаев.</h1>
+            <h4>Аналитик и разработчик.</h4>
+            <p></p>
+          </div>
+          <div>
+            <img
+              src="/public/dartungar-round.png"
+              alt="picture of Danila Nikolaev"
+              class="hero-pic"
+            />
+          </div>
+        </div>
+      </section>
 
-    <!-- career -->
-    <section id="career"><h2>Карьера</h2></section>
+      <!-- about -->
+      <section id="about" class="section-light">
+        <h2>Обо мне</h2>
+        <div>
+          <p>Люблю создавать и развивать продукты и проекты.</p>
+          <p>
+            Со мной приятно работать. Общаюсь конструктивно, пишу в инфостиле,
+            не козлю. Проявляю эмпатию и эмоциональный интеллект, когда надо.
+          </p>
+          <p>
+            Трекаю свои (если надо - и чужие) задачи. Делегирую и аккуратно, но
+            твердо контролирую выполнение.
+          </p>
+          <p>Читаю историю и научную фантастику.</p>
+          <p>Рисую, пою, играю на гитаре, плаваю. Немного инвестирую.</p>
+          <p>
+            С 2017 года увлекся разработкой, и это лучшее, что со мной
+            происходило. За исключением
+            <a href="https://sunjshu.ru/">моей жены</a>, конечно. ;)
+          </p>
+        </div>
+      </section>
 
-    <!-- projects -->
-    <section id="projects"><h2>Проекты</h2></section>
+      <!-- skills -->
+      <section id="skills" class="section-dark">
+        <h2>Навыки</h2>
+        <div class="grid-skills">
+          <div class="skills-item">
+            <h4><i class="fab fa-js"></i> JavaScript</h4>
 
-    <!-- about -->
-    <section id="about"><h2>Обо мне</h2></section>
+            <p>
+              Без JS в веб и fullstack-разработке никуда.
+            </p>
+            <p>
+              Map, Filter, деструктуризация объектов, Node / Express, промисы и
+              async/await: да.
+            </p>
+            <p>
+              Бинды, доскональное понимание асинхронности, TypeScript: нет, но
+              будет.
+            </p>
+          </div>
+          <div class="skills-item">
+            <h4><i class="fab fa-react"></i> React</h4>
 
-    <!-- contacts -->
-    <section id="contacts"><h2>Контакты</h2></section>
+            <p>
+              Мне нравится React - можно создавать быстрые, динамичные
+              приложения с реюзабельными компонентами.
+            </p>
+            <p>Context API, хуки: да.</p>
+            <p>Redux, custom hooks: нет, но будет.</p>
+          </div>
+          <div class="skills-item">
+            <h4><i class="fas fa-code"></i> HTML / CSS</h4>
+
+            <p>
+              Знаю HTML / CSS на пристойном уровне.
+            </p>
+            <p>Псевдо-элементы, CSS-анимации, Bootstrap: да.</p>
+            <p>Grid, SCSS: нет, но будет.</p>
+          </div>
+          <div class="skills-item">
+            <h4><i class="fab fa-python"></i> Python</h4>
+
+            <p>
+              С помощью Python можно легко создать простой API, манипулировать
+              данными и прототипировать.
+            </p>
+            <p>За это и люблю.</p>
+            <p>
+              List comprehensions, генераторы, базовое ООП, Flask, SQLAlchemy,
+              Pandas: да.
+            </p>
+            <p>Настоящее ООП, асинхронность и многопоточность: нет.</p>
+          </div>
+          <div class="skills-item">
+            <h4><i class="fas fa-database"></i> Базы данных</h4>
+
+            <p>
+              В своих проектах использовал PostgreSQL, SQLite и MongoDB.
+            </p>
+            <p>CRUD, индексы, анализ запросов: да.</p>
+            <p>Триггеры, вьюшки, продвинутый SQL: нет.</p>
+          </div>
+          <div class="skills-item">
+            <h4><i class="fas fa-chart-line"></i> Аналитика</h4>
+
+            <p>
+              Я зарабатываю на жизнь аналитикой. Сейчас - системная аналитика.
+            </p>
+            <p>Есть опыт в веб-аналитике, продуктовой аналитике.</p>
+            <p>
+              Несколько раз создавал систему показателей и отчености для
+              руководителей небольших компаний с нуля.
+            </p>
+            <p>Отличаю каузальность от корреляции.</p>
+            <p>
+              Яндекс.Метрика, Google Analytics, Power Pivot / PowerBI,
+              Amplitude: да.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- career -->
+      <section id="career" class="section-light">
+        <h2>Карьера</h2>
+        <div class="career-item">
+          <h4>2019 - настоящее время</h4>
+          <p>Treolan, системный аналитик</p>
+        </div>
+        <div class="career-item">
+          <h4>2015 - 2019</h4>
+          <p>SteamTrend, аналитик, зам. коммерческого директора</p>
+        </div>
+        <div class="career-item">
+          <h4>2014 - 2015</h4>
+          <p>РВСН</p>
+        </div>
+        <div class="career-item">
+          <h4>2012 - 2014</h4>
+          <p>Tekfor, аналитик</p>
+        </div>
+      </section>
+
+      <!-- projects -->
+      <section id="projects" class="section-dark">
+        <h2>Проекты</h2>
+        <ul class="nonbullet-list">
+          <li>
+            <a className="custom-link" href="https://otgovorki.dartungar.com">
+              Otgovorki
+            </a>
+            : Отговорки на любой случай и потехи ради. Генератор, топ.
+          </li>
+          <li>
+            <a className="custom-link" href="https://t.me/PerfectWeatherBot">
+              Perfect Weather Bot
+            </a>
+            : подскажет, где есть погода на ваш вкус
+          </li>
+          <li>
+            <a className="custom-link" href="https://t.me/notion_so_bot">
+              Notion Bot
+            </a>
+            : быстро отправить текст из Telegram в Notion
+          </li>
+        </ul>
+      </section>
+
+      <!-- contacts -->
+      <section id="contacts" class="section-light">
+        <h2>Контакты</h2>
+        <ul class="nonbullet-list">
+          <li>
+            <a href="https://t.me/dartungar"
+              ><i class="fab fa-telegram-plane"></i> @dartungar</a
+            >
+          </li>
+          <li>
+            <a href="https://vk.com/dartungar"
+              ><i class="fab fa-vk"></i> vk.com/dartungar</a
+            >
+          </li>
+          <li>
+            <a href="https://fb.com/dartungar"
+              ><i class="fab fa-facebook-f"></i> fb.com/dartungar</a
+            >
+          </li>
+        </ul>
+        <p>Надежнее писать в Telegram - проверяю регулярно.</p>
+      </section>
+    </div>
   </body>
 </html>

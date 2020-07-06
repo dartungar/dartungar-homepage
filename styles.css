@@ -1,46 +1,91 @@
 /* global style */
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: #f9f9f8;
-  color: #39383c;
-  margin: 20px 20px 40px;
+  width: 100%;
+  margin: 0;
   font-family: "Lora", serif;
 }
 
 h1,
 h2,
-h3 {
-  color: #837773;
+h3,
+h4,
+h5 {
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin-bottom: 2rem;
+}
+
+section {
+  padding: 120px 20% 120px;
 }
 
 a {
   text-decoration: none;
-  color: #39383c;
+  font-weight: 500;
 }
 
 a:hover {
   color: #918a85;
 }
 
+/* dark section styles  */
+.section-dark {
+  background-color: #39383c;
+  color: #f9f9f8;
+}
+
+.section-dark a {
+  color: #f9f9f8;
+}
+
+.section-dark a:hover {
+  color: #918a85;
+}
+
+/* light section styles */
+.section-light {
+  background-color: #f9f9f8;
+  color: #39383c;
+}
+
+.section-light a {
+  color: #39383c;
+}
+
+.section-dark a:hover {
+  color: #918a85;
+}
+
+/* header section  */
+.header {
+  padding: 20px 20% 20px;
+}
+
 /* navbar & logo */
 
 nav {
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 50px 0;
 }
 
-nav h3,
-ul {
-  display: inline;
-}
-
-nav ul {
-  position: absolute;
-  right: 20px;
+nav h3 {
+  padding-bottom: 20px;
 }
 
 .navbar-list {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 auto;
   padding: 0;
 }
 
@@ -50,18 +95,63 @@ nav ul {
 }
 
 /* hero */
-.grid-2 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
+.hero {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.hero div {
+  margin-bottom: 30px;
 }
 
 .hero-pic {
   width: 400px;
 }
 
+@media (max-width: 800px) {
+  .hero-pic {
+    width: 200px;
+  }
+}
+
 /* skills */
 
-.grid-3 {
+.grid-skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.skills-item {
+  padding: 30px 30px 30px 0;
+  text-align: justify;
+}
+
+.skills-item p {
+  margin: 10px 0 5px;
+}
+
+/* career */
+.career-item {
+  margin-bottom: 30px;
+}
+
+/* contacts */
+
+.contacts-list {
+  padding: 10px 0 0 0;
+}
+
+.nonbullet-list {
+  padding-left: 0;
+}
+
+.nonbullet-list li {
+  list-style-type: none;
+  margin-bottom: 5px;
 }
