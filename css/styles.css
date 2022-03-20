@@ -143,6 +143,11 @@ nav {
   min-width: 200px;
 }
 
+img.hero-pic {
+  border-radius: 50%;
+  box-shadow: rgba(98, 103, 107, 0.2) 0px 8px 16px;
+}
+
 /* skills */
 
 .skills-item {
