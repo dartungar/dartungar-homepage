@@ -24,12 +24,32 @@ h2 {
   margin-bottom: 2rem;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 h4 {
   margin-bottom: 1rem;
 }
 
 section {
-  padding: 120px 20% 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  padding-left: max(25%, 300px);
+  padding-right: max(25%, 300px);
+}
+
+@media screen and (max-width: 1200px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: min(10%, 200px);
+    padding-right: min(10%, 200px);
+  }
+
+  .header + section .hero {
+    flex-direction: column-reverse;
+  }
 }
 
 a {
@@ -101,16 +121,25 @@ nav {
   align-items: center;
   padding-bottom: 150px;
   text-align: center;
+  max-width: 700px;
+  margin: auto;
 }
 
 .hero div {
-  max-width: 400px;
+  max-width: 300px;
   margin-bottom: 30px;
-  flex: auto;
+}
+
+.hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  margin: 0.1rem;
 }
 
 .hero-pic {
-  max-width: 100%;
+  max-width: 250px;
   min-width: 200px;
 }
 
