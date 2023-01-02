@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/330ee55ff0.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap"
       rel="stylesheet"
@@ -67,7 +67,7 @@
           </div>
           <div>
             <img
-              src="./public/dartungar_round.png"
+              src="../public/dartungar_round.png"
               alt="picture of Danila Nikolaev"
               class="hero-pic"
             />
@@ -96,51 +96,17 @@
       <section id="skills" class="section-dark">
         <h2>Навыки</h2>
         <div class="grid-skills">
-          <div class="skills-item">
-            <h4><i class="fab fa-js"></i> JavaScript, TypeScript</h4>
-            <p>
-              Знаю JS, TypeScript.
-            </p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fab fa-react"></i><i class="fab fa-angular"></i> React, Angular</h4>
-            <p>Работал с React, Angular, AngularJS, DevExtreme.</p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fas fa-code"></i> HTML / CSS</h4>
-            <p>Есть опыт с SCSS/SASS, Bootstrap, Material, адаптивной версткой.</p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fas fa-solar-panel"></i> C#, .NET</h4>
-            <p>
-              Работаю с С#, Entity Framework и ASP.NET MVC.
-            </p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fas fa-database"></i> Базы данных</h4>
-            <p>
-              Знаком с MS SQL Server, PostgreSQL, MongoDB. Проектировал небольшие БД (нормализация, индексы).
-            </p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fab fa-python"></i> Python</h4>
-            <p>
-              Скрипты, автоматизация, работа с данными в Pandas, веб-разработка на Flask+Jinja, FastAPI, Jupyter Notebook.
-            </p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fas fa-chart-line"></i>Аналитика</h4>
-            <p>Умею общаться с пользователями, узнавать требования.</p>
-            <p>Знаю базовые продуктовые метрики. Отличаю каузальность от корреляции.</p>
-            <p>
-              Работал с Яндекс.Метрикой/Аппметрикой, Google Analytics, Amplitude, Power BI, Azure Application Insights.
-            </p>
-          </div>
-          <div class="skills-item">
-            <h4><i class="fas fa-magic"></i> UI & UX</h4>
-            <p>Умею прототипировать в Figma и Axure.</p>
-            <p>Знаю, как важен удобный интерфейс.</p>
-          </div>
+          <ul class="nonbullet-list">
+            <li><i class="fab fa-js"></i> JavaScript & TypeScript</li>
+            <li><i class="fas fa-solar-panel"></i> C# & .NET</li>
+            <li><i class="fab fa-react"></i> React</li>
+            <li><i class="fab fa-angular"></i> Angular</li>
+            <li><i class="fas fa-globe"></i> ASP.NET</li>
+            <li><i class="fas fa-database"></i> SQL Server, PostgreSQL, MongoDB</li>
+            <li><i class="fab fa-python"></i> Python</li>
+            <li><i class="fas fa-cloud"></i> Azure Devops</li>
+            <li><i class="fas fa-magic"></i> UI, UX, прототипирование</li>
+          </ul>
         </div>
       </section>
 
@@ -149,7 +115,7 @@
         <h2>Карьера</h2>
         <div class="career-item">
           <h4>2021 - настоящее время</h4>
-          <p>Treolan, fullstack-разработчик</p>
+          <p>Treolan, fullstack-разработчик (.NET/C#, JS)</p>
         </div>
         <div class="career-item">
           <h4>2019 - 2021</h4>
@@ -162,10 +128,6 @@
         <div class="career-item">
           <h4>2015 - 2018</h4>
           <p>SteamTrend, аналитик</p>
-        </div>
-        <div class="career-item">
-          <h4>2014 - 2015</h4>
-          <p>РВСН</p>
         </div>
         <div class="career-item">
           <h4>2012 - 2014</h4>
@@ -190,22 +152,46 @@
             : Self-hosted бот для отправки текста в Notion с помощью Telegram. Приобрел определенную популярность в сообществе Notion.
           </li>
           <li>
+            <a
+              className="custom-link"
+              href="https://github.com/dartungar/obsidian-simple-note-review"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Obsidian Simple Note Review
+            </a>
+            : плагин для удобного обзора и повторения заметок в
+            <a
+              className="custom-link"
+              href="https://obsidian.md/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Obsidian.md</a
+            >.            
+          </li>
+          <li>
+            <a
+              className="custom-link"
+              href="https://github.com/dartungar/obsidian-mermaid"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Medmaid Tools
+            </a>
+            : плагин для удобной работы с Mermaid.js в
+            <a
+              className="custom-link"
+              href="https://obsidian.md/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Obsidian.md</a
+            >.
+          </li>
+          <li>
             <a className="custom-link" href="https://github.com/dartungar/obsidian-emotion-picker" target="_blank" rel="noopener noreferrer">
               Obsidian Emotion Picker
             </a>
             : плагин для <a className="custom-link" href="https://obsidian.md/"  target="_blank" rel="noopener noreferrer">Obsidian.md</a>, добавляет палитру эмоций для тех, кто ведет дневник. Приобрел определенную популярность в сообществе Obsidian.
-          </li>
-          <li>
-            <a className="custom-link" href="https://otgovorki.dartungar.com" target="_blank" rel="noopener noreferrer">
-              Otgovorki
-            </a>
-            : Генератор абсурдных отговорок на любой случай и потехи ради. Есть топ отговорок.
-          </li>
-          <li>
-            <a className="custom-link" href="https://t.me/PerfectWeatherBot" target="_blank" rel="noopener noreferrer">
-              Perfect Weather Bot
-            </a>
-          : подскажет, где есть погода на ваш вкус.
           </li>
 
         </ul>
