@@ -1,0 +1,25 @@
+languageCode = "en"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Danila Nikolaev"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  description = "Website of Danila Nikolaev aka dartungar"
+
+[params.author]
+  name = "Danila Nikolaev"
+  image = "/img/avatar.png"
+  headline = "Software Engineer <br> .NET & C# | AWS | Angular & React | SQL | Python"
+  bio = "Danila Nikolaev is a nomad software engineer."
+  links = [
+     { email = "mailto:dartungar@gmail.com" },
+     { github = "https://github.com/dartungar" },
+     { linkedin = "https://linkedin.com/in/dartungar" },
+     { telegram = "https://t.me/dartungar" },
+  ]

@@ -1,0 +1,122 @@
+baseurl = "https://dartungar.com.com"
+title = "Danila Nikolaev"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Danila Nikolaev"
+  info = "Software Engineer (.NET & C# | AWS | Angular & React | SQL | Python)"
+  description = "Danila Nikolaev's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "/img/avatar.png"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2019
+
+  enableTwemoji = true
+
+  maxSeeAlsoItems = 5
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/dartungar/"
+[[params.social]]
+  name = "Telegram"
+  icon = "fa-brands fa-telegram fa-2x"
+  weight = 2
+  url = "https://t.me/dartungar"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/dartungar/"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Experience"
+  weight = 2
+  url = "experience/"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+  url = "projects/"
+[[menu.main]]
+  name = "Blog"
+  weight = 4
+  url  = "posts/"
+[[menu.main]] 
+  name = "Get in Touch"
+  weight = 5
+  url  = "contact/"
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'Danila Nikolaev'
+    weight = 1
+  [languages.ru]
+    contentDir = 'content/ru'
+    disabled = false
+    languageCode = 'ru-RU'
+    languageDirection = 'ltr'
+    languageName = 'Русский'
+    title = 'Данила Николаев'
+    weight = 2
+    [languages.ru.menus]
+      [[languages.ru.menus.main]]
+        name = "Обо мне"
+        weight = 1
+        url = "about/"
+        [[languages.ru.menus.main]]
+        name = "Карьера"
+        weight = 2
+        url = "experience/"
+        [[languages.ru.menus.main]]
+        name = "Проекты"
+        weight = 3
+        url = "projects/"
+        [[languages.ru.menus.main]]
+        name = "Контакты"
+        weight = 5
+        url  = "contact/"
