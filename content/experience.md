@@ -1,3 +1,8 @@
+---
+showDate: false
+showPagination: false
+showTaxonomies: false
+---
 # Professional Journey
 
 *Want the full CV? [Let's connect](/contact)!*

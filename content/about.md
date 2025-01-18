@@ -1,3 +1,8 @@
+---
+showDate: false
+showPagination: false
+showTaxonomies: false
+---
 ## About me
 
 Hey there! 👋

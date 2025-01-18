@@ -1,3 +1,8 @@
+---
+showDate: false
+showPagination: false
+showTaxonomies: false
+---
 # Let's Connect
 
 Whether it's code, coffee, or collaboration - I'm always up for a chat!
