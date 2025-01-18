@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
-  
-    
-  
-    
       <url>
             <loc>http://localhost:1313/ru/</loc>
             <xhtml:link
@@ -20,6 +16,74 @@
               href="http://localhost:1313/ru/"
               />
           </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/ru/about/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/about/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ru"
+              href="http://localhost:1313/ru/about/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/ru/contact/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/contact/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ru"
+              href="http://localhost:1313/ru/contact/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/ru/experience/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/experience/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ru"
+              href="http://localhost:1313/ru/experience/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>http://localhost:1313/ru/projects/</loc>
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="http://localhost:1313/projects/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="ru"
+              href="http://localhost:1313/ru/projects/"
+              />
+          </url>
+    
+  
+    
+  
     
   
 </urlset>

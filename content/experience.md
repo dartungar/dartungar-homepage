@@ -35,7 +35,7 @@ showTaxonomies: false
 
 ## Tech Stack
 ### Core
-`C#` `.NET` `AWS` `SQL Server` `Angular` 
+<kbd>C#</kbd> <kbd>.NET</kbd> <kbd>AWS</kbd> <kbd>SQL Server</kbd> <kbd>Angular</kbd>
 
 ### Also Worked With
-`React` `MongoDB` `PostgreSQL` `RabbitMQ` `SignalR`
+<kbd>React</kbd> <kbd>MongoDB</kbd> <kbd>PostgreSQL</kbd> <kbd>RabbitMQ</kbd> <kbd>SignalR</kbd>

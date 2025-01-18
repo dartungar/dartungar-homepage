@@ -1,0 +1,1 @@
+Notes on coding, tech, and everyday stuff that catches my attention.

@@ -3,7 +3,7 @@ showDate: false
 showPagination: false
 showTaxonomies: false
 ---
-## About me
+# About me
 
 Hey there! 👋
 
@@ -25,9 +25,10 @@ My non-work projects can be found [here](/projects).
 When I'm not coding, you'll probably find me:
 
 - Reading (mostly non-fiction, history, and sci-fi)
-- Learning new stuff
+- Learning
 - Exploring new places
 - Drawing
+- Enjoying music
 - Hanging out with my wife and/or friends
 
 Always up for meeting interesting people and working on cool things. [Drop me a line!](/contact)
