@@ -1,7 +1,8 @@
 ---
-title: "Test Post"
+title: "Котусенички котучат!"
 date: 2023-12-14
 draft: false
 ---
 
-This is a test post.
+Танцуют и поют,
+Весело живут.
