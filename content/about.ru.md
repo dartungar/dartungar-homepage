@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Обо мне"
 ---
-# Обо мне
-
 Привет! 👋
 
 Меня зовут Данила. 

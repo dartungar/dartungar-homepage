@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Professional Journey"
 ---
-# Professional Journey
-
 *Want the full CV? [Let's connect](/contact)!*
 
 ## Current

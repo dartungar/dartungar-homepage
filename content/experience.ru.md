@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Карьера"
 ---
-# Карьера
-
 *Нужно отдельное резюме? [Напишите!](/contact)*
 
 ## Текущая позиция

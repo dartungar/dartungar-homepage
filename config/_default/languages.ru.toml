@@ -15,7 +15,7 @@ title = "Данила Николаев"
 [params.author]
   name = "Данила Николаев"
   image = "/img/avatar.png"
-  headline = "Создаю | Программирую | Познаю"
+  headline = "cоздаю, программирую, познаю"
   bio = "Danila Nikolaev is a nomad software engineer."
   links = [
      { email = "mailto:dartungar@gmail.com" },

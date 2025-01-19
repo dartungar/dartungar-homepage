@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Projects"
 ---
-# Created by me
-
 - [Wishly](https://wishly.site): Wishlist app. Create wishlists, find your friends' wishlists, cooperate on big presents. Built with C# & Angular.
 
 - [Text-To-Notion Bot](https://github.com/dartungar/text-to-notion-bot): self-hosted single-user telegram bot for sending text into Notion, using the official API. Built with Python.

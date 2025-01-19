@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Контакты"
 ---
-# Пишите!
-
 Буду рад пообщаться - по работе, интересным проектам, или просто с хорошим человеком!
 
 - [telegram](https://t.me/dartungar)

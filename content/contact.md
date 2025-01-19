@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Let's Connect"
 ---
-# Let's Connect
-
 Whether it's code, coffee, or collaboration - I'm always up for a chat!
 
 - [telegram](https://t.me/dartungar)

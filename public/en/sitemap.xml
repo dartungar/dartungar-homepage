@@ -27,6 +27,19 @@
     
   
     
+  
+    
+      <url>
+            <loc>http://localhost:1313/posts/test-copy/</loc>
+            <lastmod>2023-12-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
       <url>
             <loc>http://localhost:1313/posts/test/</loc>
             <lastmod>2023-12-14T00:00:00+00:00</lastmod>
@@ -47,6 +60,8 @@
               href="http://localhost:1313/about/"
               />
           </url>
+    
+  
     
   
     
@@ -95,10 +110,6 @@
               href="http://localhost:1313/projects/"
               />
           </url>
-    
-  
-    
-  
     
   
 </urlset>

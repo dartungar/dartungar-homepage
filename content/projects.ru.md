@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "Проекты"
 ---
-# Мои проекты
-
 - [Wishly](https://wishly.site): Приложение для вишлистов. Создавайте списки желаний, находите вишлисты друзей, собирайте деньги на большие подарки вместе. Разработано на C# и Angular.
 
 - [Text-To-Notion Bot](https://github.com/dartungar/text-to-notion-bot): Персональный телеграм-бот для отправки текста в Notion через официальное API. Разработан на Python.

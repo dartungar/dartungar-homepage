@@ -1,5 +1,5 @@
 ---
-title: "Котусенички котучат!"
+title: "Test 2"
 description: "Some test article"
 date: 2023-12-14
 draft: false
@@ -8,5 +8,4 @@ tags:
     - testtag2
 ---
 
-Танцуют и поют,
-Весело живут.
+Oh boy, here we go again.

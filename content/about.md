@@ -2,9 +2,8 @@
 showDate: false
 showPagination: false
 showTaxonomies: false
+title: "About"
 ---
-# About me
-
 Hey there! 👋
 
 I'm Dan - I write code for work and fun.
