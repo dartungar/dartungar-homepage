@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Danila Nikolaev</title>
-    <link>http://localhost:1313/</link>
+    <link>https://dartungar.com/</link>
     <description>Recent content on Danila Nikolaev</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dartungar.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joker: Folie a Deux Is A Good Movie</title>
+      <link>https://dartungar.com/posts/joker-folie-a-deux-is-a-good-movie/</link>
+      <pubDate>Fri, 24 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dartungar.com/posts/joker-folie-a-deux-is-a-good-movie/</guid>
+      <description>It&amp;rsquo;s not a hill I would die on, but maybe this post will change somebody&amp;rsquo;s opinion?</description>
+    </item>
+    <item>
+      <title>Starting a blog in 2025</title>
+      <link>https://dartungar.com/posts/starting-a-blog-in-2025/</link>
+      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dartungar.com/posts/starting-a-blog-in-2025/</guid>
+      <description></description>
+    </item>
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://dartungar.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://dartungar.com/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Let&#39;s Connect</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://dartungar.com/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://dartungar.com/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Professional Journey</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>https://dartungar.com/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>https://dartungar.com/experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/projects/</link>
+      <link>https://dartungar.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/</guid>
+      <guid>https://dartungar.com/projects/</guid>
       <description></description>
     </item>
   </channel>

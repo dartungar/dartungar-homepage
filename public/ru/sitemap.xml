@@ -4,16 +4,16 @@
   
     
       <url>
-            <loc>http://localhost:1313/ru/</loc>
+            <loc>https://dartungar.com/ru/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/"
+              href="https://dartungar.com/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/"
+              href="https://dartungar.com/ru/"
               />
           </url>
     
@@ -24,64 +24,64 @@
   
     
       <url>
-            <loc>http://localhost:1313/ru/experience/</loc>
+            <loc>https://dartungar.com/ru/experience/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/experience/"
+              href="https://dartungar.com/experience/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/experience/"
+              href="https://dartungar.com/ru/experience/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/ru/contact/</loc>
+            <loc>https://dartungar.com/ru/contact/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/contact/"
+              href="https://dartungar.com/contact/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/contact/"
+              href="https://dartungar.com/ru/contact/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/ru/about/</loc>
+            <loc>https://dartungar.com/ru/about/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/about/"
+              href="https://dartungar.com/about/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/about/"
+              href="https://dartungar.com/ru/about/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/ru/projects/</loc>
+            <loc>https://dartungar.com/ru/projects/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/projects/"
+              href="https://dartungar.com/projects/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/projects/"
+              href="https://dartungar.com/ru/projects/"
               />
           </url>
     

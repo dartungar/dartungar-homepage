@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Данила Николаев</title>
-    <link>http://localhost:1313/ru/</link>
+    <link>https://dartungar.com/ru/</link>
     <description>Recent content on Данила Николаев</description>
     <generator>Hugo</generator>
     <language>ru</language>
-    <atom:link href="http://localhost:1313/ru/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dartungar.com/ru/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Карьера</title>
-      <link>http://localhost:1313/ru/experience/</link>
+      <link>https://dartungar.com/ru/experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ru/experience/</guid>
+      <guid>https://dartungar.com/ru/experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Контакты</title>
-      <link>http://localhost:1313/ru/contact/</link>
+      <link>https://dartungar.com/ru/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ru/contact/</guid>
+      <guid>https://dartungar.com/ru/contact/</guid>
       <description></description>
     </item>
     <item>
       <title>Обо мне</title>
-      <link>http://localhost:1313/ru/about/</link>
+      <link>https://dartungar.com/ru/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ru/about/</guid>
+      <guid>https://dartungar.com/ru/about/</guid>
       <description></description>
     </item>
     <item>
       <title>Проекты</title>
-      <link>http://localhost:1313/ru/projects/</link>
+      <link>https://dartungar.com/ru/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ru/projects/</guid>
+      <guid>https://dartungar.com/ru/projects/</guid>
       <description></description>
     </item>
   </channel>

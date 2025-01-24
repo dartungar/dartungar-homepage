@@ -4,40 +4,66 @@
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>https://dartungar.com/</loc>
+            <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ru"
+              href="https://dartungar.com/ru/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://dartungar.com/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://dartungar.com/posts/</loc>
+            <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://dartungar.com/posts/joker-folie-a-deux-is-a-good-movie/</loc>
+            <lastmod>2025-01-24T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+            <loc>https://dartungar.com/posts/starting-a-blog-in-2025/</loc>
             <lastmod>2025-01-19T00:00:00+00:00</lastmod>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ru"
-              href="http://localhost:1313/ru/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="http://localhost:1313/"
-              />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/posts/</loc>
-            <lastmod>2025-01-19T00:00:00+00:00</lastmod>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/about/</loc>
+            <loc>https://dartungar.com/about/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/about/"
+              href="https://dartungar.com/ru/about/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/about/"
+              href="https://dartungar.com/about/"
               />
           </url>
     
@@ -46,52 +72,50 @@
   
     
       <url>
-            <loc>http://localhost:1313/contact/</loc>
+            <loc>https://dartungar.com/contact/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/contact/"
+              href="https://dartungar.com/ru/contact/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/contact/"
+              href="https://dartungar.com/contact/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/experience/</loc>
+            <loc>https://dartungar.com/experience/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/experience/"
+              href="https://dartungar.com/ru/experience/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/experience/"
+              href="https://dartungar.com/experience/"
               />
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/projects/</loc>
+            <loc>https://dartungar.com/projects/</loc>
             <xhtml:link
               rel="alternate"
               hreflang="ru"
-              href="http://localhost:1313/ru/projects/"
+              href="https://dartungar.com/ru/projects/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="http://localhost:1313/projects/"
+              href="https://dartungar.com/projects/"
               />
           </url>
-    
-  
     
   
 </urlset>

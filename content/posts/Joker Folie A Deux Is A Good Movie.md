@@ -1,12 +1,12 @@
 ---
 date: 2025-01-24
-description: "\"Joker: Folie a Deux Is A Good Movie. A blog post in defence of Joker sequel\""
+description: "Joker: Folie a Deux Is A Good Movie. A blog post in defence of Joker sequel"
 draft: false
-summary: "\"It's not a hill I would die on, but maybe it'll change somebody's opinion?\""
+summary: "It's not a hill I would die on, but maybe this post will change somebody's opinion?"
 tags:
 - movie
 - review
-title: "\"Joker: Folie à Deux Is A Good Movie\""
+title: "Joker: Folie a Deux Is A Good Movie"
 ---
 
 I approached *Joker: Folie à Deux* with very low expectations. I mean, 5 out of 10 on IMDb---it couldn't be *that* bad, right?  
