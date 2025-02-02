@@ -8,7 +8,7 @@ RUN apk update && apk add --no-cache git hugo
 WORKDIR /opt/homepage
 
 # Clone the repository
-RUN git clone https://github.com/dartungar/dartungar-homepage.git .
+RUN git clone https://github.com/dartungar/dartungar-homepage.git . && git submodule update --init
 
 # Run Hugo in the Workdir to generate HTML.
 RUN hugo --minify
