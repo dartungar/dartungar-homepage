@@ -7,13 +7,16 @@ title: "Professional Journey"
 *Want the full CV? [Let's connect](/contact)!*
 
 ## Current
-**Senior Software Engineer** @ EPAM Systems *(2023 - present)*
+**Senior Software Engineer** @ Social Discovery Group *(2025 - present)*
+- Playing a key role in modernization of a diverse portfolio of social products focused on building virtual intimacy
+
+## Previous Roles
+### Senior Software Engineer @ EPAM Systems *(2023 - 2025)*
 - Driving cloud migration for StepStone Group, handling sensitive data for millions of users
   - Achieved zero downtime, 99.99% error reduction, and 10x performance gains
 - Improved data processing facilities for Dow Jones using AWS & .NET
 - Tech: AWS (Lambda, DynamoDB, EC2, SQS, SNS, S3), .NET, MongoDB, SQL Server
 
-## Previous Roles
 
 ### Software Engineer @ Treolan *(2020 - 2023)*
 - Enhanced critical ERP processes for 1000+ active users with zero downtime
